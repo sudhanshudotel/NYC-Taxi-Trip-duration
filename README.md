@@ -1,7 +1,5 @@
 # NYC-Taxi-Trip-duration
 
-## NYC Taxi Trip Duration Project Report
-
 ### Table of Contents
 1. Overview
 2. Notebook Configuration

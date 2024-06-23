@@ -43,10 +43,10 @@ The train and test datasets are loaded from CSV files.
 Basic information about the datasets, including the number of rows and columns, is displayed.
 
 ### 4. Hyperparameter Tuning
-Hyperparameter tuning is performed to optimize the model's performance. Techniques such as Grid Search or Random Search are typically used, but specific implementation details are not provided in the code snippet.
+Hyperparameter tuning is performed to optimize the model's performance using Grid Search.
 
 ### 5. Model Selection
-Various models are evaluated to select the best performing one. Common models used in such projects include Linear Regression, Decision Trees, Random Forest, Gradient Boosting, and Neural Networks. The code snippet does not provide specific details about the models used, but it mentions the use of TensorFlow, indicating that neural networks might be involved.
+In this project, the model used is the SGDRegressor from sklearn.linear_model, which stands for Stochastic Gradient Descent Regressor. This model is configured with a random seed for reproducibility.
 
 ### 6. Generating the Submission File
 The final model is used to make predictions on the test dataset, and the results are saved in a submission file for evaluation. The submission file includes the trip IDs and the corresponding predicted durations. The code snippet does not include the implementation for generating the submission file, but it typically involves using the trained model to predict the trip durations for the test set and saving the results to a CSV file.
